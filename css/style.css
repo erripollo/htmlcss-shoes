@@ -13,8 +13,11 @@ body{
     position: relative;
 }
 
-ul li{
+ul{
     list-style: none;
+}
+
+ul > li{
     display: inline-block;
     background-color: white;
     width: 30px;
@@ -25,7 +28,7 @@ ul li{
     box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-.products_select > ul > li > a{
+li > a{
     text-decoration: none;
     color: black;
     line-height: 30px;
