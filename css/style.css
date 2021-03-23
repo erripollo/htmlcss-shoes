@@ -13,7 +13,8 @@ body{
     position: relative;
 }
 
-.products_select > ul > li{
+ul li{
+    list-style: none;
     display: inline-block;
     background-color: white;
     width: 30px;
@@ -21,6 +22,7 @@ body{
     border-radius: 50%;
     text-align: center;
     margin-left: 15px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .products_select > ul > li > a{
@@ -34,6 +36,10 @@ body{
     top: 30px;
     right: 20px;
     z-index: 1;
+}
+
+li:hover{
+    background-color:dodgerblue;
 }
 
 .container{
